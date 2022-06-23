@@ -1,0 +1,6 @@
+<% @posts.each do |post| %>
+  <%= post.description %>
+  <% post.comments.each do |comment| %>
+    <p><%= comment.body %></p>
+  <% end %>
+<% end %>
