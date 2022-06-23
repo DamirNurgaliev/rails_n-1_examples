@@ -182,3 +182,6 @@ Note that using `joins` means if you use posts.comments then another query will 
 
 ## Good topics to read 
 https://tadhao.medium.com/joins-vs-preload-vs-includes-vs-eager-load-in-rails-5f721c44b3a9
+
+Testing performance:
+https://engineering.gusto.com/a-visual-guide-to-using-includes-in-rails/
